@@ -1,0 +1,274 @@
+/* App.css */
+.navbar-nav .upskill {
+  color: skyblue;
+}
+
+.navbar-nav .nav-link:hover {
+  cursor: pointer;
+  color: rgb(101, 183, 216);
+}
+
+.container3 {
+  display: flex;
+  margin-top: 10px;
+}
+
+.page-one {
+  width: 50%;
+}
+
+.page-two {
+  width: 60%;
+  margin-left: -160px;
+  height: 200px;
+  margin-bottom: 50px;
+}
+
+.reva {
+  height: 698px;
+  border: 6px rgb(220, 218, 230) solid;
+  padding: auto;
+  margin-bottom: 80px;
+  border-radius: 40px;
+
+}
+.submittedform{
+  height: 398px;
+  border: 6px rgb(220, 218, 230) solid;
+  padding: auto;
+  margin-bottom: 80px;
+  border-radius: 40px;
+}
+
+.m-6 {
+  margin: 150px;
+}
+
+.form-group {
+  margin: 20px;
+  padding: 10px;
+}
+
+.upskill {
+  color: aqua;
+
+}
+
+.otyp {
+  display: flex;
+  display: inline;
+}
+
+.sai {
+  display: flex;
+  padding: 5px;
+}
+
+.job-assistance-program {
+  width: 700px;
+  padding: 10px;
+}
+
+li {
+  padding: 10px;
+}
+
+.kumar {
+  width: 300px;
+}
+
+
+.image-container {
+  width: 30px;
+}
+
+.text-container {
+  margin-left: -49px;
+}
+
+
+.image {
+  width: 900px;
+  margin-right: -40px;
+}
+
+.h15 {
+  padding-bottom: 29px;
+  margin-right: 90px;
+  border-bottom: 3px rgb(191, 191, 224) solid;
+}
+
+.color {
+  background-color: rgba(238, 180, 20, 0.87);
+  margin-bottom: 30px;
+  padding: 20px;
+}
+
+
+.hub {
+
+  display: flex;
+  text-align: center;
+  margin: 19px;
+  padding: 30px;
+  justify-content: space-between;
+}
+
+p1 {
+  border: 3px white solid;
+  height: 58px;
+}
+
+li {
+  list-style: none;
+  font-size: 20px;
+  border-bottom: 3px rgb(101, 101, 170) solid;
+}
+
+.img-fluid {
+  height: 490px;
+  width: 490px;
+}
+
+.text-container1 {
+  margin-left: 290px;
+}
+
+.doddi {
+  display: flex;
+
+}
+
+.phts {
+  height: 20px;
+  width: 20px;
+}
+
+.anu {
+  height: 60px;
+  width: 70px;
+}
+
+
+.text-lefts {
+  margin-left: -60px;
+  margin-right: 137px;
+}
+
+.amma {
+  border: 4px red solid;
+  width: auto;
+}
+
+
+.card {
+  border: 29px black solid;
+  width: auto;
+  display: flex;
+}
+
+.salary-trend {
+  border-radius: 30px;
+  padding: 10px;
+  padding-bottom: 39px;
+  background-color: rgb(250, 244, 244);
+}
+
+.textcenter {
+  text-align: center;
+  align-items: center;
+  margin-left: 130px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.salary-info {
+  padding: 20px;
+  /* margin-left: 20px; */
+  text-align: center;
+}
+
+.mt5 {
+  display: flex;
+  margin-top: 30px;
+  /* padding: 40px; */
+}
+
+.m6 {
+  margin-top: 110px;
+}
+
+.mts5 {
+  margin-top: 15px;
+  background-color: black;
+  padding: 20px;
+  color: white;
+
+}
+
+.footer {
+  /* margin: 30px; */
+  padding: 50px;
+  display: flex;
+  /* justify-content: space-around; */
+  justify-content: space-between;
+}
+
+.footer1 {
+  width: 400px;
+}
+
+.explore {
+  color: white;
+  /* margin: 30px; */
+  /* padding: 50px; */
+  /* width: 100%; */
+  margin-left: 100px;
+
+}
+
+.explore1 {
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.ml5 {
+  text-align: center;
+}
+
+/* GuidanceSessionForm.css */
+
+.form-container {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.form-container.hidden {
+  opacity: 0;
+}
+
+/* GuidanceSessionForm.css */
+
+.form-container {
+  position: relative;
+  transition: all 0.5s ease-in-out;
+}
+
+.form-container.hidden {
+  height: 0;
+  overflow: hidden;
+  opacity: 0;
+}
+
+.thank-you-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transition: all 0.5s ease-in-out;
+  opacity: 0;
+}
+
+.thank-you-container.visible {
+  opacity: 1;
+}
