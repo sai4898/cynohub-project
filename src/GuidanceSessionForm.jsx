@@ -157,7 +157,7 @@ function GuidanceSessionForm() {
           <div className="col-md-12 col-lg-8">
             <div className={`text-center mt-4 thank-you-container ${formSubmitted ? 'visible' : ''}`}>
               <h4>Thank you for submitting the form!</h4>
-              {/* Display any other content you want after form submission */}
+             
             </div>
           </div>
         </div>
