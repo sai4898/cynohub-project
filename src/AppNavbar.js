@@ -17,13 +17,13 @@ function AppNavbar() {
             
           </Nav>
           <Nav>
-            <Nav.Link eventKey={2} href="#memes">
+            <Nav.Link eventKey={2} href="#Home">
               <h4>Home</h4>
             </Nav.Link>
-            <Nav.Link eventKey={2} href="#memes">
+            <Nav.Link eventKey={2} href="#academics">
               <h4>Academics</h4>
             </Nav.Link>
-            <Nav.Link eventKey={2} href="#memes">
+            <Nav.Link eventKey={2} href="#placement">
               <h4>Placements</h4>
             </Nav.Link>
             <h4><NavDropdown  title="UpSkilling" id="collapsible-nav-dropdown">
@@ -35,7 +35,7 @@ function AppNavbar() {
 
             </NavDropdown>
             </h4>
-            <Nav.Link eventKey={2} href="#memes">
+            <Nav.Link eventKey={2} href="#contact">
               <h4>Contact</h4>
             </Nav.Link>
           </Nav>
