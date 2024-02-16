@@ -5,7 +5,7 @@ function Testimonials() {
   return (
     <Container >
       <Row className='' >
-        {/* First Testimonial Set */}
+       
         <Col md={4} className="testimonial-set">
           <div className="testimonial-item">
             <Image src="https://example.com/image1.jpg" fluid />
@@ -14,7 +14,7 @@ function Testimonials() {
           </div>
         </Col>
 
-        {/* Second Testimonial Set */}
+       
         <Col md={4} className="testimonial-set">
           <div className="testimonial-item">
             <Image src="https://example.com/image2.jpg" fluid />
@@ -24,7 +24,6 @@ function Testimonials() {
           </div>
         </Col>
 
-        {/* Third Testimonial Set */}
         <Col md={4} className="testimonial-set">
           <div className="testimonial-item">
             <Image src="https://example.com/image3.jpg" fluid />

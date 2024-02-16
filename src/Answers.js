@@ -1,4 +1,3 @@
-// Answers.jsx
 
 import React, { useState } from 'react';
 import Accordion from 'react-bootstrap/Accordion';
